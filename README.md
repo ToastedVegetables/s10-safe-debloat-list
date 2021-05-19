@@ -4,12 +4,12 @@ The goal of this repository is to be beginner-friendly, by providing a list of a
 If you have experience with ADB and know what you're doing, you can skip right to the [Usage](#usage). Otherwise, I reccomend that you read the entirety of this guide, to avoid bricking your phone or doing the process incorrectly.
 
 # Prerequisites:
-1. ADB installed on your computer
-2. Developer Options enabled on your S10
-3. USB debugging enabled on your S10
+- ADB installed on your computer
+- Developer Options enabled on your S10
+- USB debugging enabled on your S10
 
 ## Installing ADB
-
+1: Download the Android SDK Platform Tools ZIP file for Windows 
 
 ## Enabling Developer Options
 
