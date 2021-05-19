@@ -9,7 +9,7 @@ If you have experience with ADB and know what you're doing, you can skip right t
 - USB debugging enabled on your S10
 
 ## Installing ADB
-1: Download the Android SDK Platform Tools ZIP file for Windows 
+1. [Download](https://developer.android.com/studio) the Android SDK Platform Tools ZIP file for Windows 
 
 ## Enabling Developer Options
 
