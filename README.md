@@ -44,7 +44,7 @@ Disclaimer: I am not responsible for any possible damages or errors that may occ
 ```
 Android Debug Bridge version 1.0.41
 Version 31.0.2-7242960
-Installed as C:\platform-tools\adb.exe`
+Installed as C:\platform-tools\adb.exe
 ```
 
 
