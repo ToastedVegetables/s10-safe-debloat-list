@@ -10,6 +10,7 @@ Please note, this repository is designed for the Samsung Galaxy S10, and has not
 Disclaimer: I am not responsible for any possible damages or errors that may occur from incorrect usage of the commands listed in this guide. Proceed at your own risk.
 
 
+
 ## Table of contents:
 - [File Locations](#file-locations)
 - [Prerequisites](#prerequisites)
@@ -21,9 +22,9 @@ Disclaimer: I am not responsible for any possible damages or errors that may occ
 
 
 ## File Locations
-- AT&T-specific commands can be found in
-- Package names with an explanation of what each of them are can be found in
-- Raw commands (without AT&T-specific apps) can be found in
+- AT&T-specific debloat commands can be found in [AT&T-specific commands](s10-safe-debloat-list/AT&T-specific-commands.txt)
+- Package names with an explanation of what each of them are can be found in [Package Explanations](s10-safe-debloat-list/Package%20Explanations.txt)
+- Raw commands (without AT&T-specific apps) can be found in [S10 Debloat Commands](s10-safe-debloat-list/S10%20Debloat%20Commands.txt)
 
 
 ## Prerequisites
@@ -69,8 +70,7 @@ Installed as C:\platform-tools\adb.exe
 5. You should see the device name listed as a "device", with a serial number prefacing it (if your device is listed as `unauthorized`, make sure you've accepted the prompt on your phone, and re-run the command)
 6. Enter the shell using the command `adb shell`
 7. Verify that you are in the shell with the command `whoami`, this command should return `shell`
-8. Run the commands found in ____
-
+8. Run the appropriate commands in [File Locations](#file-locations) (if you have any carrier other than AT&T, run the commands found in [S10 Debloat Commands](s10-safe-debloat-list/S10%20Debloat%20Commands.txt), otherwise feel free to remove all of the AT&T bloatware from your phone, too! If you want to choose which apps to remove, see [I want to learn more or uninstall specific apps](#i-want-to-learn-more-or-uninstall-specific-apps)
 
 ## Troubleshooting
 
@@ -83,7 +83,7 @@ Installed as C:\platform-tools\adb.exe
 #### I uninstalled an app on accident, and now I want it back:
 1. Don't worry, it's super easy to install previously removed apps. Just run the command `adb shell cmd package install-existing <packagename>`, with `<packagename>` being the name of the package (app) that you want to reinstall.
 
-#### I want to learn more/uninstall specific apps:
+#### I want to learn more or uninstall specific apps:
 1. It's super simple to search for and uninstall specific apps, instead of using my list. To do so, simply run the commands `adb shell pm list packages | findstr ""` with the app/package name in the quotation marks, followed by `pm uninstall -k --user 0 <packagename>`, with `<packagename>` being the aforementioned app's package name.
 2. To find an app's package name, you can use an app such as [Package Viewer](https://play.google.com/store/apps/details?id=cz.seeq.prog.android.packageviewer), or reference this *extremely* useful list of all the preinstalled packages on your phone for the [S10](https://docs.samsungknox.com/CCMode/G973U_Q.pdf) or [S10+](https://docs.samsungknox.com/CCMode/G975U1_Q.pdf)
 3. There are a ton of interesting projects that use ADB, such as:
