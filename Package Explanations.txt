@@ -12,6 +12,9 @@ com.samsung.attvvm = AT&T Visual Voicemail
 com.synchronoss.dcs.att.r2g = AT&T Setup & Transfer
 net.aetherpal.device = AT&T Remote Support
 
+-------------------------------------------------------------------------
+Other apps:
+
 com.bleacherreport.android.teamstream = Bleacher Report
 com.cnn.mobile.android.phone = CNN
 com.diotek.sec.lookup.dictionary = Dictionary
