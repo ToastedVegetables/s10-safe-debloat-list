@@ -47,8 +47,6 @@ Version 31.0.2-7242960
 Installed as C:\platform-tools\adb.exe
 ```
 
-
-
 ## Enabling Developer Options
 1. On your phone, open Settings
 2. Scroll down and click on "About Phone"
@@ -74,9 +72,8 @@ Installed as C:\platform-tools\adb.exe
 8. Run the commands found in ____
 
 
-
-
 ## Troubleshooting
+
 #### ADB is not detecting my phone:
 1. Most bad ADB connections are actually caused by bad cables. Make sure that you have a high quality USB-C *data* cable, and not a charging cable. Some charging cables deliver power and transfer data, and these may work, but it's better to use a dedicated USB-C data cable.
 2. Try [downloading](https://adb.clockworkmod.com/) and installing the Universal ADB Drivers.
