@@ -1,0 +1,11 @@
+pm uninstall -k --user 0 com.att.csoiam.mobilekey 
+pm uninstall -k --user 0 com.att.callprotect 
+pm uninstall -k --user 0 com.att.android.attsmartwifi 
+pm uninstall -k --user 0 com.att.tv 
+pm uninstall -k --user 0 com.att.myWireless 
+pm uninstall -k --user 0 com.att.mobilesecurity 
+pm uninstall -k --user 0 com.att.iqi 
+pm uninstall -k --user 0 com.att.dh 
+pm uninstall -k --user 0 com.dti.att 
+pm uninstall -k --user 0 com.samsung.attvvm 
+pm uninstall -k --user 0 com.synchronoss.dcs.att.r2g 
