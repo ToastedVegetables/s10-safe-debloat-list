@@ -22,9 +22,9 @@ Disclaimer: I am not responsible for any possible damages or errors that may occ
 
 
 ## File Locations
-- AT&T-specific debloat commands can be found in [AT&T-specific commands](s10-safe-debloat-list/AT&T-specific-commands.txt)
-- Package names with an explanation of what each of them are can be found in [Package Explanations](s10-safe-debloat-list/Package%20Explanations.txt)
-- Raw commands (without AT&T-specific apps) can be found in [S10 Debloat Commands](s10-safe-debloat-list/S10%20Debloat%20Commands.txt)
+- AT&T-specific debloat commands can be found in [AT&T-specific commands](https://github.com/ToastedVegetables/s10-safe-debloat-list/blob/8d76ee8be4cb17c0cf92a5dcc92f6a3cf939d017/AT&T-specific%20commands.txt)
+- Package names with an explanation of what each of them are can be found in [Package Explanations](https://github.com/ToastedVegetables/s10-safe-debloat-list/blob/8d76ee8be4cb17c0cf92a5dcc92f6a3cf939d017/Package%20Explanations.txt)
+- Raw commands (without AT&T-specific apps) can be found in [S10 Debloat Commands](https://github.com/ToastedVegetables/s10-safe-debloat-list/blob/8d76ee8be4cb17c0cf92a5dcc92f6a3cf939d017/S10%20Debloat%20Commands.txt)
 
 
 ## Prerequisites
