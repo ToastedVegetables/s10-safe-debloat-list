@@ -70,7 +70,7 @@ Installed as C:\platform-tools\adb.exe
 5. You should see the device name listed as a "device", with a serial number prefacing it (if your device is listed as `unauthorized`, make sure you've accepted the prompt on your phone, and re-run the command)
 6. Enter the shell using the command `adb shell`
 7. Verify that you are in the shell with the command `whoami`, this command should return `shell`
-8. Run the appropriate commands in [File Locations](#file-locations) (if you have any carrier other than AT&T, run the commands found in [S10 Debloat Commands](s10-safe-debloat-list/S10%20Debloat%20Commands.txt), otherwise feel free to remove all of the AT&T bloatware from your phone, too! If you want to choose which apps to remove, see [I want to learn more or uninstall specific apps](#i-want-to-learn-more-or-uninstall-specific-apps)
+8. Run the appropriate commands in [File Locations](#file-locations) (if you have any carrier other than AT&T, run the commands found in [S10 Debloat Commands](https://github.com/ToastedVegetables/s10-safe-debloat-list/blob/8d76ee8be4cb17c0cf92a5dcc92f6a3cf939d017/S10%20Debloat%20Commands.txt), otherwise feel free to remove all of the AT&T bloatware from your phone, too! If you want to choose which apps to remove, see [I want to learn more or uninstall specific apps](#i-want-to-learn-more-or-uninstall-specific-apps)
 
 ## Troubleshooting
 
